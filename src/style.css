@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'SolaimanLipi';
+    src: url(./fonts/solaimanlipi.ttf);
+}
+
+@theme{
+    --font-solaiman: 'SolaimanLipi';
+
+}
+body{
+    font-family: var(--font-solaiman);
+}
